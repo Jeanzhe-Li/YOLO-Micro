@@ -1,0 +1,59 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../yolo_ger  # dataset root dir
+train: ../yolo_ger/train  # train images (relative to 'path') 4 images
+val: ../yolo_ger/valid  # val images (relative to 'path') 4 images
+test:  # test images (optional)
+# Classes
+names:
+  0: Signal_Back
+  1: Sign_Back
+  2: Hectometer_Sign
+  3: Vr_2
+  4: Hp_0_HV
+  5: Hp_1
+  6: El_6
+  7: Hp_0_Sh
+  8: Signal_Off
+  9: Lf_7
+  10: Ks_2
+  11: Ks_1
+  12: Ne_2
+  13: Vr_1
+  14: Mast_Sign_WRW
+  15: Signal_Identifier_Sign
+  16: Hp_2
+  17: Vr_0
+  18: Traffic_Sign
+  19: Ne_4
+  20: Zs_Off
+  21: Mast_Sign_Y_Triangle
+  22: Hp_0_Ks
+  23: Platform_Display
+  24: Platform_Track_Sign
+  25: Platform_Text_Sign
+  26: Platform_Warn_Sign
+  27: Zs_3
+  28: Ne_5
+  29: So_20_Right
+  30: Zs_2v
+  31: Zs_3v
+  32: Ne_3_2
+  33: Ne_3_1
+  34: Ne_3_3
+  35: Sh_1
+  36: Lf_6
+  37: Zs_6
+  38: Traffic_Light
+  39: Zs_2
+  40: Ne_1
+  41: Sh_0
+  42: Ride_Indicator_Off
+  43: Mast_Sign_WYWYW
+  44: Lf_3
+  45: Signal_Invalid
+  46: Sh_2
+  47: Wn_1
+  48: Wn_2
+  49: Ne_7a
+  50: So_20_Left
+ 
